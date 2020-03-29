@@ -854,7 +854,6 @@ h1
 
 footer
   {
-    top:50px;
     background-color: #020009;
     display: flex;
     flex-direction: column;
@@ -863,6 +862,9 @@ footer
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
+    top:50px;
+
+    }
 
 @media screen and (max-width: 700px)
 {
