@@ -864,6 +864,8 @@ footer
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
+    margin-bottom: 0;
+    bottom: 0;
 
 
     }
