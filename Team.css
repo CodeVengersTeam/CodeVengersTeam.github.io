@@ -1,0 +1,959 @@
+*
+{
+  padding: 0;
+  margin: 0;
+}
+
+body
+{
+  background: #1a1a1a;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+header
+{
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  position: relative;
+}
+
+
+
+ul
+{
+  list-style-type: none;
+
+  
+  padding-top: auto;
+  padding-bottom: auto;
+  overflow: hidden;
+  background-color: black;
+  position: sticky;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-top: 0px;
+  -webkit-box-orient:horizontal;
+  -webkit-box-direction:normal;
+  -webkit-flex-flow:row wrap;
+  -ms-flex-flow:row wrap;
+  flex-flow: row wrap;
+}
+
+li
+{
+  align-items: center;
+  height: 25px;
+}
+
+
+ul li
+{
+  float: left;
+  /* align-items: center; */
+  display: auto;
+  -webkit-flex:1;
+  -webkit-box-flex:1;
+  -moz-flex:1;
+  flex: 1;
+  text-align: center;
+padding-bottom:30px ;
+
+}
+ul li a {
+  display: block;
+  color: white;
+  text-align:center;
+
+padding-top: 10px;
+padding-bottom: 20px;
+  text-decoration: none;
+  transition: 0.7s;
+  color:#fff;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+
+li a:hover:not(.active1) {
+  background-color: white;
+  color: black;
+}
+
+.active1
+{
+  background-color: white;
+  color: black;
+}
+
+.memberList
+{
+  padding: 0;
+  width:20%;
+  height: auto;
+  background-color: black;
+  position: absolute;
+  border-radius: 5px;
+  border: 2px groove white;
+  margin-left: 10px;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 5px 10px 18px 7px black;
+  font-size: 20px;
+  display: none;
+  text-decoration: none;
+}
+
+.memberList a
+{
+  display: block;
+  padding: 11px;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 3px;
+  background-color: black;
+  /*height: 40px;
+  font-size: 20px;*/
+  transition: 0.7s;
+  color: white;
+}
+
+
+.memberBtn + .active
+{
+  background-color: white;
+  color: black;
+}
+
+.memberBtn:hover
+{
+   background-color: white;
+   color: black;
+}
+
+.main
+{
+  height: 400px;
+}
+
+.main2
+{
+  display: none;
+}
+
+.hexagon
+{
+  height: 300px;
+  width: 150px;
+  background: red;
+  transform: rotate(120deg);
+  margin: 200px auto;
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  bottom: 50px;
+}
+
+.text
+{
+  padding-top: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size:13px;
+}
+
+h1
+{
+  background-color: black;
+  width: 120px;
+  height: 30px;
+  color: #22afd2;
+  text-align: center;
+  font-family: serif;
+}
+
+.hexagon-inner
+{
+  height: 100%;
+  width: 100%;
+  background: green;
+  transform: rotate(-60deg);
+  overflow: hidden;
+}
+
+.hexagon-inner-in
+{
+  height: 100%;
+  width: 100%;
+  background-image: url("Mihika.jpg");
+  background-position: center;
+  background-size: 100% 60%;
+  transform: rotate(-60deg);
+  visibility: visible;
+}
+
+.hexagon1
+{
+  height: 300px;
+  width: 150px;
+  background: red;
+  transform: rotate(120deg);
+  margin: 200px auto;
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  bottom: 390px;
+  left: 90px;
+
+}
+
+.text1
+{
+  padding-top: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size:13px;
+}
+
+.hexagon-inner1
+{
+  height: 100%;
+  width: 100%;
+  background: green;
+  transform: rotate(-60deg);
+  overflow: hidden;
+}
+
+.hexagon-inner-in1
+{
+  height: 100%;
+  width: 100%;
+  background-image: url("Varun.jpg");
+  background-position: center;
+  background-size: 100% 60%;
+  transform: rotate(-60deg);
+  visibility: visible;
+}
+
+.hexagon2
+{
+  height: 300px;
+  width: 150px;
+  background: red;
+  transform: rotate(120deg);
+  margin: 200px auto;
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  bottom: 890px;
+  right: 90px
+
+}
+
+.text2
+{
+  padding-top: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size:13px;
+}
+
+.hexagon-inner2
+{
+  height: 100%;
+  width: 100%;
+  background: green;
+  transform: rotate(-60deg);
+  overflow: hidden;
+}
+
+.hexagon-inner-in2
+{
+  height: 100%;
+  width: 100%;
+  background-image: url("Jayb.jpg");
+  background-position: center;
+  background-size: 100% 60%;
+  transform: rotate(-60deg);
+  visibility: visible;
+}
+
+.hexagon3
+{
+  height: 300px;
+  width: 150px;
+  background: red;
+  transform: rotate(120deg);
+  margin: 200px auto;
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  bottom: 1550px;
+  left: 175px;
+
+}
+
+.text3
+{
+  padding-top: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size:13px;
+}
+
+.hexagon-inner3
+{
+  height: 100%;
+  width: 100%;
+  background: green;
+  transform: rotate(-60deg);
+  overflow: hidden;
+}
+
+.hexagon-inner-in3
+{
+  height: 100%;
+  width: 100%;
+  background-image: url("Jays.jpg");
+  background-position: center;
+  background-size: 100% 60%;
+  transform: rotate(-60deg);
+  visibility: visible;
+}
+
+.hexagon4
+{
+  height: 300px;
+  width: 150px;
+  background: red;
+  transform: rotate(120deg);
+  margin: 200px auto;
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  bottom:2210px;
+  left: 90px;
+}
+
+.text4
+{
+  padding-top: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size:13px;
+}
+
+.hexagon-inner4
+{
+  height: 100%;
+  width: 100%;
+  background: green;
+  transform: rotate(-60deg);
+  overflow: hidden;
+}
+
+.hexagon-inner-in4
+{
+  height: 100%;
+  width: 100%;
+  background-image: url("Parth.jpg");
+  background-position: center;
+  background-size: 100% 60%;
+  transform: rotate(-60deg);
+  visibility: visible;
+}
+
+.hexagon5
+{
+  height: 300px;
+  width: 150px;
+  background: red;
+  transform: rotate(120deg);
+  margin: 200px auto;
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  bottom: 2710px;
+  right: 90px;
+}
+
+.text5
+{
+  padding-top: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size:13px;
+}
+
+.hexagon-inner5
+{
+  height: 100%;
+  width: 100%;
+  background: green;
+  transform: rotate(-60deg);
+  overflow: hidden;
+}
+
+.hexagon-inner-in5
+{
+  height: 100%;
+  width: 100%;
+  background-image: url("Khushal.jpg");
+  background-position: center;
+  background-size: 100% 60%;
+  transform: rotate(-60deg);
+  visibility: visible;
+}
+
+.hexagon6
+{
+  height: 300px;
+  width: 150px;
+  background: red;
+  transform: rotate(120deg);
+  margin: 200px auto;
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  bottom: 3050px;
+  right: 180px;
+}
+
+.text6
+{
+  padding-top: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size:13px;
+}
+
+.hexagon-inner6
+{
+  height: 100%;
+  width: 100%;
+  background: green;
+  transform: rotate(-60deg);
+  overflow: hidden;
+}
+
+.hexagon-inner-in6
+{
+  height: 100%;
+  width: 100%;
+  background-image: url("Dheeraj.jpg");
+  background-position: center;
+  background-size: 100% 60%;
+  transform: rotate(-60deg);
+  visibility: visible;
+}
+
+.hexagonMobile
+{
+  height: 300px;
+  width: 150px;
+  background: red;
+  transform: rotate(120deg);
+  margin:auto;
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+
+}
+
+.text
+{
+  padding-top: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size:13px;
+}
+
+h1
+{
+  background-color: black;
+  width: 120px;
+  height: 30px;
+  color: #22afd2;
+  text-align: center;
+  font-family: serif;
+}
+
+.hexagon-innerMobile
+{
+  height: 100%;
+  width: 100%;
+  background: green;
+  transform: rotate(-60deg);
+  overflow: hidden;
+}
+
+.hexagon-inner-inMobile
+{
+  height: 100%;
+  width: 100%;
+  background-image: url("Dheeraj.jpg");
+  background-position: center;
+  background-size: 100% 60%;
+  transform: rotate(-60deg);
+  visibility: visible;
+}
+
+.hexagon1Mobile
+{
+  height: 300px;
+  width: 150px;
+  background: red;
+  transform: rotate(120deg);
+  margin: auto;
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  bottom: 50px;
+
+}
+
+.text1
+{
+  padding-top: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size:13px;
+}
+
+.hexagon-inner1Mobile
+{
+  height: 100%;
+  width: 100%;
+  background: green;
+  transform: rotate(-60deg);
+  overflow: hidden;
+}
+
+.hexagon-inner-in1Mobile
+{
+  height: 100%;
+  width: 100%;
+  background-image: url("Jayb.jpg");
+  background-position: center;
+  background-size: 100% 60%;
+  transform: rotate(-60deg);
+  visibility: visible;
+}
+
+.hexagon2Mobile
+{
+  height: 300px;
+  width: 150px;
+  background: red;
+  transform: rotate(120deg);
+  margin:auto;
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  bottom: 50px;
+}
+
+.text2
+{
+  padding-top: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size:13px;
+}
+
+.hexagon-inner2Mobile
+{
+  height: 100%;
+  width: 100%;
+  background: green;
+  transform: rotate(-60deg);
+  overflow: hidden;
+}
+
+.hexagon-inner-in2Mobile
+{
+  height: 100%;
+  width: 100%;
+  background-image: url("Jays.jpg");
+  background-position: center;
+  background-size: 100% 60%;
+  transform: rotate(-60deg);
+  visibility: visible;
+}
+
+.hexagon3Mobile
+{
+  height: 300px;
+  width: 150px;
+  background: red;
+  transform: rotate(120deg);
+  margin:auto;
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  bottom: 50px;
+
+}
+
+.text3
+{
+  padding-top: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size:13px;
+}
+
+.hexagon-inner3Mobile
+{
+  height: 100%;
+  width: 100%;
+  background: green;
+  transform: rotate(-60deg);
+  overflow: hidden;
+}
+
+.hexagon-inner-in3Mobile
+{
+  height: 100%;
+  width: 100%;
+  background-image: url("Khushal.jpg");
+  background-position: center;
+  background-size: 100% 60%;
+  transform: rotate(-60deg);
+  visibility: visible;
+}
+
+.hexagon4Mobile
+{
+  height: 300px;
+  width: 150px;
+  background: red;
+  transform: rotate(120deg);
+  margin: auto;
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  bottom: 50px;
+}
+
+.text4
+{
+  padding-top: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size:13px;
+}
+
+.hexagon-inner4Mobile
+{
+  height: 100%;
+  width: 100%;
+  background: green;
+  transform: rotate(-60deg);
+  overflow: hidden;
+}
+
+.hexagon-inner-in4Mobile
+{
+  height: 100%;
+  width: 100%;
+  background-image: url("Mihika.jpg");
+  background-position: center;
+  background-size: 100% 60%;
+  transform: rotate(-60deg);
+  visibility: visible;
+}
+
+.hexagon5Mobile
+{
+  height: 300px;
+  width: 150px;
+  background: red;
+  transform: rotate(120deg);
+  margin: auto;
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  bottom: 50px;
+}
+
+.text5
+{
+  padding-top: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size:13px;
+}
+
+.hexagon-inner5Mobile
+{
+  height: 100%;
+  width: 100%;
+  background: green;
+  transform: rotate(-60deg);
+  overflow: hidden;
+}
+
+.hexagon-inner-in5Mobile
+{
+  height: 100%;
+  width: 100%;
+  background-image: url("Parth.jpg");
+  background-position: center;
+  background-size: 100% 60%;
+  transform: rotate(-60deg);
+  visibility: visible;
+}
+
+.hexagon6Mobile
+{
+  height: 300px;
+  width: 150px;
+  background: red;
+  transform: rotate(120deg);
+  margin: auto;
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+  bottom: 50px;
+}
+
+.text6
+{
+  padding-top: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size:13px;
+}
+
+.hexagon-inner6Mobile
+{
+  height: 100%;
+  width: 100%;
+  background: green;
+  transform: rotate(-60deg);
+  overflow: hidden;
+}
+
+.hexagon-inner-in6Mobile
+{
+  height: 100%;
+  width: 100%;
+  background-image: url("Varun.jpg");
+  background-position: center;
+  background-size: 100% 60%;
+  transform: rotate(-60deg);
+  visibility: visible;
+}
+
+
+.content
+{
+  margin-left: 25%;
+  margin-top: 1%;
+  padding: 10px;
+  width: 60%;
+  /*background-color:#273746;*/
+}
+
+#parth
+{
+  display: none;
+}
+
+#varun
+{
+  display: none;
+}
+
+#jayb
+{
+  display: none;
+}
+
+#mihika
+{
+  display: none;
+}
+
+#jays
+{
+  display: none;
+}
+
+#khushal
+{
+  display: none;
+}
+
+#dheeraj
+{
+  display: none;
+}
+
+.bio
+{
+  background: black;
+  color: white;
+  text-align: justify;
+  float:right;
+  margin-top: 5%;
+  padding: 3%;
+  border: 2px groove white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px black;
+
+}
+
+
+.img
+{
+  float: left;
+  width: auto;
+  height: auto;
+  border: 7px groove black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px black;
+}
+
+.name
+{
+  float: left;
+  margin-left: 5%;
+  padding: 10px;
+  background: black;
+  color: white;
+  border-radius: 50px;
+  transition: 70ms;
+  border: solid white;
+  text-decoration: none;
+}
+
+
+
+.name:hover
+{
+  box-shadow: 0px 0px 20px blue;
+}
+
+
+
+@media screen and (max-width: 700px)
+{
+  .memberList
+  {
+    width:100%;
+    height: auto;
+    position: relative;
+  }
+  .memberList a
+  {
+    float: left;
+  }
+  .member
+  {
+    margin-left: 0;
+  }
+  ul
+  {
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -webkit-flex-direction:column;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    margin-top: 0;
+
+  }
+
+  ul li
+  {
+    width:100%;
+  }
+}
+
+
+
+
+@media screen and (max-width: 500px)
+{
+
+.main
+{
+  display: none;
+}
+.main2
+{
+  display: grid;
+}
+.image
+{
+  float: none;
+}
+ ul
+  {
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -webkit-flex-direction:column;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    margin-top: 0;
+    width: 100%;
+
+  }
+
+  ul li
+  {
+    width:100%;
+  }
+}
+
+@media screen and (max-width: 320px)
+{
+  .memberList
+  {
+    width:100%;
+    height: auto;
+    position: relative;
+  }
+  .memberList a
+  {
+    float: left;
+  }
+  .member
+  {
+    margin-left: 0;
+  }
+ul
+  {
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -webkit-flex-direction:column;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    margin-top: 0;
+    width: 100%;
+
+  }
+
+  ul li
+  {
+    width:100%;
+  }
+
+}
