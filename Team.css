@@ -217,6 +217,7 @@ h1
   background-size: 100% 60%;
   transform: rotate(-60deg);
   visibility: visible;
+  cursor: pointer;
 }
 
 .hexagon1
@@ -260,6 +261,7 @@ h1
   background-size: 100% 60%;
   transform: rotate(-60deg);
   visibility: visible;
+  cursor: pointer;
 }
 
 .hexagon2
@@ -303,6 +305,7 @@ h1
   background-size: 100% 60%;
   transform: rotate(-60deg);
   visibility: visible;
+  cursor: pointer;
 }
 
 .hexagon3
@@ -346,6 +349,7 @@ h1
   background-size: 100% 60%;
   transform: rotate(-60deg);
   visibility: visible;
+  cursor: pointer;
 }
 
 .hexagon4
@@ -388,6 +392,7 @@ h1
   background-size: 100% 60%;
   transform: rotate(-60deg);
   visibility: visible;
+  cursor: pointer;
 }
 
 .hexagon5
@@ -430,6 +435,7 @@ h1
   background-size: 100% 60%;
   transform: rotate(-60deg);
   visibility: visible;
+  cursor: pointer;
 }
 
 .hexagon6
@@ -472,6 +478,7 @@ h1
   background-size: 100% 60%;
   transform: rotate(-60deg);
   visibility: visible;
+  cursor: pointer;
 }
 
 .hexagonMobile
