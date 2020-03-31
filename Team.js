@@ -36,7 +36,7 @@ function showParth()
   document.getElementById('list').style.display = "block";
   document.getElementById("cover").style.display = "none";
   document.getElementById("cover2").style.display = "none";
-
+  document.getElementById("know").style.display = "none";
 
 
 
@@ -73,7 +73,7 @@ function showVarun()
   document.getElementById("list").style.display = "block";
   document.getElementById("cover").style.display = "none";
   document.getElementById("cover2").style.display = "none";
-
+  document.getElementById("know").style.display = "none";
 
   var memberList = document.getElementById('list');
 
@@ -106,7 +106,7 @@ function showJayb()
   document.getElementById('list').style.display = "block";
   document.getElementById("cover").style.display = "none";
   document.getElementById("cover2").style.display = "none";
-
+  document.getElementById("know").style.display = "none";
 
   var memberList = document.getElementById('list');
 
@@ -139,6 +139,7 @@ function showMihika()
   document.getElementById('list').style.display = "block";
   document.getElementById("cover").style.display = "none";
   document.getElementById("cover2").style.display = "none";
+  document.getElementById("know").style.display = "none";
 
   var memberList = document.getElementById('list');
 
@@ -171,6 +172,7 @@ function showJays()
   document.getElementById('list').style.display = "block";
   document.getElementById("cover").style.display = "none";
   document.getElementById("cover2").style.display = "none";
+  document.getElementById("know").style.display = "none";
   var memberList = document.getElementById('list');
 
   var member = memberList.getElementsByClassName('memberBtn');
@@ -201,6 +203,7 @@ function showKhushal()
   document.getElementById('list').style.display = "block";
   document.getElementById("cover").style.display = "none";
   document.getElementById("cover2").style.display = "none";
+  document.getElementById("know").style.display = "none";
   var memberList = document.getElementById('list');
 
   var member = memberList.getElementsByClassName('memberBtn');
@@ -231,6 +234,7 @@ function showDheeraj()
   document.getElementById('list').style.display = "block";
   document.getElementById("cover").style.display = "none";
   document.getElementById("cover2").style.display = "none";
+  document.getElementById("know").style.display = "none";
   var memberList = document.getElementById('list');
 
   var member = memberList.getElementsByClassName('memberBtn');
