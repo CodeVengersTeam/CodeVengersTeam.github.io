@@ -13,7 +13,27 @@ body
   padding: 0;
 }
 
+h3 {
+    text-align: center;
+    font-family: serif;
+    font-size: 200%;
+    margin-top: 30px;
+}
 
+#footer
+{
+  background-color: #020009;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
 
 header
 {
@@ -27,14 +47,10 @@ header
   width: 100%;
   position: relative;
 }
-h3
-{
-	text-align: center;
-	font-family: serif;
-	font-size: 200%;
-	margin-top: 30px;
-}
-footer
+
+
+
+/* footer
 {
     background-color: #020009;
     display: flex;
@@ -44,7 +60,7 @@ footer
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
-}
+} */
 
 
 ul
@@ -223,7 +239,6 @@ h1
   background-size: 100% 60%;
   transform: rotate(-60deg);
   visibility: visible;
-  cursor: pointer;
 }
 
 .hexagon1
@@ -267,7 +282,6 @@ h1
   background-size: 100% 60%;
   transform: rotate(-60deg);
   visibility: visible;
-  cursor: pointer;
 }
 
 .hexagon2
@@ -311,7 +325,6 @@ h1
   background-size: 100% 60%;
   transform: rotate(-60deg);
   visibility: visible;
-  cursor: pointer;
 }
 
 .hexagon3
@@ -355,7 +368,6 @@ h1
   background-size: 100% 60%;
   transform: rotate(-60deg);
   visibility: visible;
-  cursor: pointer;
 }
 
 .hexagon4
@@ -398,7 +410,6 @@ h1
   background-size: 100% 60%;
   transform: rotate(-60deg);
   visibility: visible;
-  cursor: pointer;
 }
 
 .hexagon5
@@ -441,7 +452,6 @@ h1
   background-size: 100% 60%;
   transform: rotate(-60deg);
   visibility: visible;
-  cursor: pointer;
 }
 
 .hexagon6
@@ -484,7 +494,6 @@ h1
   background-size: 100% 60%;
   transform: rotate(-60deg);
   visibility: visible;
-  cursor: pointer;
 }
 
 .hexagonMobile
@@ -881,9 +890,15 @@ h1
 
 @media screen and (max-width: 700px)
 {
+  h3 {
+      text-align: center;
+      font-family: serif;
+      font-size: 200%;
+      margin-top: 30px;
+  }
   .memberList
   {
-    width:100%;
+    width:auto;
     height: auto;
     position: relative;
   }
@@ -910,6 +925,20 @@ h1
   {
     width:100%;
   }
+  #footer
+  {
+    background-color: #020009;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: auto;
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
 }
 
 
@@ -917,6 +946,12 @@ h1
 
 @media screen and (max-width: 500px)
 {
+  h3 {
+      text-align: center;
+      font-family: serif;
+      font-size: 200%;
+      margin-top: 30px;
+  }
 
 .main
 {
@@ -946,13 +981,33 @@ h1
   {
     width:100%;
   }
+  #footer
+  {
+    background-color: #020009;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
 }
 
 @media screen and (max-width: 320px)
 {
+  h3 {
+      text-align: center;
+      font-family: serif;
+      font-size: 200%;
+      margin-top: 30px;
+  }
   .memberList
   {
-    width:100%;
+    width:auto;
     height: auto;
     position: relative;
   }
@@ -979,6 +1034,20 @@ ul
   ul li
   {
     width:100%;
+  }
+  #footer
+  {
+    background-color: #020009;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: 0;
   }
 
 }
