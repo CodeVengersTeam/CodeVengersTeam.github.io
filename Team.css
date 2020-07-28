@@ -1,3 +1,9 @@
+*
+{
+  padding: 0;
+  margin: 0;
+}
+
 body
 {
   background: #1a1a1a;
@@ -8,10 +14,25 @@ body
 }
 
 h3 {
+    text-align: center;
+    font-family: serif;
+    font-size: 200%;
+    margin-top: 30px;
+}
+
+#footer
+{
+  background-color: #020009;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  font-family: serif;
-  font-size: 200%;
-  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
 
 header
@@ -21,30 +42,38 @@ header
   text-align: center;
   font-size: 20px;
   font-family: 'Source Sans Pro', sans-serif;
-
-  padding: 2px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   width: 100%;
   position: relative;
 }
 
-.header
+
+
+/* footer
 {
-  width: 100%;
-  background: black;
-}
+    background-color: #020009;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+} */
+
 
 ul
 {
   list-style-type: none;
 
-  padding-left: 0;
-  padding-right: 15px;
+
   padding-top: auto;
   padding-bottom: auto;
   overflow: hidden;
   background-color: black;
   position: sticky;
-  width: 98.18%;
+  width: 100%;
   align-items: center;
   display: flex;
   display: -webkit-box;
@@ -105,7 +134,6 @@ li a:hover:not(.active1) {
   background-color: white;
   color: black;
 }
-
 
 .memberList
 {
@@ -172,24 +200,16 @@ li a:hover:not(.active1) {
   overflow: hidden;
   visibility: hidden;
   position: relative;
-  bottom: 10px;
-  
+  bottom: 50px;
 }
 
 .text
 {
-  padding-top: 100%;
+  padding-top: 120%;
   padding-left: 10%;
   padding-right: 10%;
   font-size:13px;
-  transition: 0.5s ease;
-  opacity: 0;
 }
-.hexagon:hover .text{
-  
-  opacity: 1;
-}
-
 
 h1
 {
@@ -215,9 +235,8 @@ h1
   height: 100%;
   width: 100%;
   background-image: url("Mihika.jpg");
-  background-position: 145px 60px;
+  background-position: center;
   background-size: 100% 60%;
-  
   transform: rotate(-60deg);
   visibility: visible;
 }
@@ -232,23 +251,17 @@ h1
   overflow: hidden;
   visibility: hidden;
   position: relative;
-  bottom: 510px;
-  left: 330px;
+  bottom: 390px;
+  left: 90px;
 
 }
 
 .text1
 {
-  padding-top: 100%;
+  padding-top: 120%;
   padding-left: 10%;
   padding-right: 10%;
   font-size:13px;
-  transition: 0.5s ease;
-  opacity: 0;
-}
-.hexagon1:hover .text1{
- 
-  opacity: 1;
 }
 
 .hexagon-inner1
@@ -281,25 +294,18 @@ h1
   overflow: hidden;
   visibility: hidden;
   position: relative;
-  bottom: 810px;
-  right: 330px;
+  bottom: 890px;
+  right: 90px
 
 }
 
 .text2
 {
-  transition: 0.5s ease;
-  padding-top: 100%;
+  padding-top: 120%;
   padding-left: 10%;
   padding-right: 10%;
   font-size:13px;
-  opacity: 0;
 }
-.hexagon2:hover .text2{
-  
-  opacity: 1;
-}
-
 
 .hexagon-inner2
 {
@@ -331,25 +337,18 @@ h1
   overflow: hidden;
   visibility: hidden;
   position: relative;
-  bottom: 1610px;
-  left: 160px;
+  bottom: 1550px;
+  left: 175px;
 
 }
 
 .text3
 {
-  padding-top: 100%;
+  padding-top: 120%;
   padding-left: 10%;
   padding-right: 10%;
   font-size:13px;
-  transition: 0.5s ease;
-  opacity: 0;
 }
-.hexagon3:hover .text3{
-  
-  opacity: 1;
-}
-
 
 .hexagon-inner3
 {
@@ -382,23 +381,16 @@ h1
   visibility: hidden;
   position: relative;
   bottom:2210px;
-  right: 330px;
+  left: 90px;
 }
 
 .text4
 {
-  padding-top: 100%;
+  padding-top: 120%;
   padding-left: 10%;
   padding-right: 10%;
   font-size:13px;
-  transition: 0.5s ease;
-  opacity: 0;
 }
-.hexagon4:hover .text4{
- 
-  opacity: 1;
-}
-
 
 .hexagon-inner4
 {
@@ -431,23 +423,16 @@ h1
   visibility: hidden;
   position: relative;
   bottom: 2710px;
-  left: 330px;
+  right: 90px;
 }
 
 .text5
 {
-  padding-top: 100%;
+  padding-top: 120%;
   padding-left: 10%;
   padding-right: 10%;
   font-size:13px;
-  transition: 0.5s ease;
-  opacity: 0;
 }
-.hexagon5:hover .text5{
- 
-  opacity: 1;
-}
-
 
 .hexagon-inner5
 {
@@ -462,8 +447,8 @@ h1
 {
   height: 100%;
   width: 100%;
-  background-image: url("Darshan.jpg");
-  background-position: 150px 60px;
+  background-image: url("Khushal.jpg");
+  background-position: center;
   background-size: 100% 60%;
   transform: rotate(-60deg);
   visibility: visible;
@@ -479,24 +464,17 @@ h1
   overflow: hidden;
   visibility: hidden;
   position: relative;
-  bottom: 3100px;
-  right: 160px;
+  bottom: 3050px;
+  right: 180px;
 }
 
 .text6
 {
-  padding-top: 100%;
+  padding-top: 120%;
   padding-left: 10%;
   padding-right: 10%;
   font-size:13px;
-  transition: 0.5s ease;
-  opacity: 0;
 }
-.hexagon6:hover .text6{
- 
-  opacity: 1;
-}
-
 
 .hexagon-inner6
 {
@@ -518,205 +496,6 @@ h1
   visibility: visible;
 }
 
-.hexagon7
-{
-  height: 300px;
-  width: 150px;
-  background: red;
-  transform: rotate(120deg);
-  margin: 200px auto;
-  overflow: hidden;
-  visibility: hidden;
-  position: relative;
-  bottom: 3510px;
-  right: 330px;
-}
-
-.text7
-{
-  padding-top: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
-  font-size:13px;
-  transition: 0.5s ease;
-  opacity: 0;
-}
-.hexagon7:hover .text7{
-  
-  opacity: 1;
-}
-
-.hexagon-inner7
-{
-  height: 100%;
-  width: 100%;
-  background: green;
-  transform: rotate(-60deg);
-  overflow: hidden;
-}
-
-.hexagon-inner-in7
-{
-  height: 100%;
-  width: 100%;
-  background-image: url("Rohit.jpg");
-  background-position: center;
-  background-size: 100% 60%;
-  transform: rotate(-60deg);
-  visibility: visible;
-}
-
-
-.hexagon8
-{
-  height: 300px;
-  width: 150px;
-  background: red;
-  transform: rotate(120deg);
-  margin: 200px auto;
-  overflow: hidden;
-  visibility: hidden;
-  position: relative;
-  bottom: 3910px;
-  right: 160px;
-}
-
-.text8
-{
-  padding-top: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
-  font-size:13px;
-  transition: 0.5s ease;
-  opacity: 0;
-}
-.hexagon8:hover .text8{
-  
-  opacity: 1;
-}
-
-
-.hexagon-inner8
-{
-  height: 100%;
-  width: 100%;
-  background: green;
-  transform: rotate(-60deg);
-  overflow: hidden;
-}
-
-.hexagon-inner-in8
-{
-  height: 100%;
-  width: 100%;
-  background-image: url("Shyren.jpg");
-  background-position: 150px 60px;
-  background-size: 100% 60%;
-  transform: rotate(-60deg);
-  visibility: visible;
-}
-
-
-.hexagon9
-{
-  height: 300px;
-  width: 150px;
-  background: red;
-  transform: rotate(120deg);
-  margin: 200px auto;
-  overflow: hidden;
-  visibility: hidden;
-  position: relative;
-  bottom: 4420px;
-  left: 160px;
-}
-
-.text9
-{
-  padding-top: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
-  font-size:13px;
-  transition: 0.5s ease;
-  opacity: 0;
-}
-.hexagon9:hover .text9{
-  
-  opacity: 1;
-}
-
-
-.hexagon-inner9
-{
-  height: 100%;
-  width: 100%;
-  background: green;
-  transform: rotate(-60deg);
-  overflow: hidden;
-}
-
-.hexagon-inner-in9
-{
-  height: 100%;
-  width: 100%;
-  background-image: url("Meet.jpg");
-  background-position: center;
-  background-size: 100% 60%;
-  transform: rotate(-60deg);
-  visibility: visible;
-}
-
-.hexagon10
-{
-  height: 300px;
-  width: 150px;
-  background: red;
-  transform: rotate(120deg);
-  margin: 200px auto;
-  overflow: hidden;
-  visibility: hidden;
-  position: relative;
-  bottom: 4800px;
-  left: 330px;
-}
-
-.text10
-{
-  padding-top: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
-  font-size:13px;
-  transition: 0.5s ease;
-  opacity: 0;
-}
-.hexagon10:hover .text10{
-  
-  opacity: 1;
-}
-
-
-.hexagon-inner10
-{
-  height: 100%;
-  width: 100%;
-  background: green;
-  transform: rotate(-60deg);
-  overflow: hidden;
-}
-
-.hexagon-inner-in10
-{
-  height: 100%;
-  width: 100%;
-  background-image: url("Jayk.jpg");
-  background-position: center;
-  background-size: 100% 60%;
-  transform: rotate(-60deg);
-  visibility: visible;
-}
-
-/* For MOBILE */
-
 .hexagonMobile
 {
   height: 300px;
@@ -730,9 +509,9 @@ h1
 
 }
 
-.textt
+.text
 {
-  padding-top: 100%;
+  padding-top: 120%;
   padding-left: 10%;
   padding-right: 10%;
   font-size:13px;
@@ -761,7 +540,7 @@ h1
 {
   height: 100%;
   width: 100%;
-  background-image: url("Darshan.jpg");
+  background-image: url("Dheeraj.jpg");
   background-position: center;
   background-size: 100% 60%;
   transform: rotate(-60deg);
@@ -782,9 +561,9 @@ h1
 
 }
 
-.textt1
+.text1
 {
-  padding-top: 100%;
+  padding-top: 120%;
   padding-left: 10%;
   padding-right: 10%;
   font-size:13px;
@@ -803,7 +582,7 @@ h1
 {
   height: 100%;
   width: 100%;
-  background-image: url("Dheeraj.jpg");
+  background-image: url("Jayb.jpg");
   background-position: center;
   background-size: 100% 60%;
   transform: rotate(-60deg);
@@ -823,9 +602,9 @@ h1
   bottom: 50px;
 }
 
-.textt2
+.text2
 {
-  padding-top: 100%;
+  padding-top: 120%;
   padding-left: 10%;
   padding-right: 10%;
   font-size:13px;
@@ -844,7 +623,7 @@ h1
 {
   height: 100%;
   width: 100%;
-  background-image: url("Jayb.jpg");
+  background-image: url("Jays.jpg");
   background-position: center;
   background-size: 100% 60%;
   transform: rotate(-60deg);
@@ -865,9 +644,9 @@ h1
 
 }
 
-.textt3
+.text3
 {
-  padding-top: 100%;
+  padding-top: 120%;
   padding-left: 10%;
   padding-right: 10%;
   font-size:13px;
@@ -886,7 +665,7 @@ h1
 {
   height: 100%;
   width: 100%;
-  background-image: url("Jayk.jpg");
+  background-image: url("Khushal.jpg");
   background-position: center;
   background-size: 100% 60%;
   transform: rotate(-60deg);
@@ -906,9 +685,9 @@ h1
   bottom: 50px;
 }
 
-.textt4
+.text4
 {
-  padding-top: 100%;
+  padding-top: 120%;
   padding-left: 10%;
   padding-right: 10%;
   font-size:13px;
@@ -927,7 +706,7 @@ h1
 {
   height: 100%;
   width: 100%;
-  background-image: url("Jays.jpg");
+  background-image: url("Mihika.jpg");
   background-position: center;
   background-size: 100% 60%;
   transform: rotate(-60deg);
@@ -947,9 +726,9 @@ h1
   bottom: 50px;
 }
 
-.textt5
+.text5
 {
-  padding-top: 100%;
+  padding-top: 120%;
   padding-left: 10%;
   padding-right: 10%;
   font-size:13px;
@@ -968,7 +747,7 @@ h1
 {
   height: 100%;
   width: 100%;
-  background-image: url("Meet.jpg");
+  background-image: url("Parth.jpg");
   background-position: center;
   background-size: 100% 60%;
   transform: rotate(-60deg);
@@ -988,9 +767,9 @@ h1
   bottom: 50px;
 }
 
-.textt6
+.text6
 {
-  padding-top: 100%;
+  padding-top: 120%;
   padding-left: 10%;
   padding-right: 10%;
   font-size:13px;
@@ -1009,168 +788,6 @@ h1
 {
   height: 100%;
   width: 100%;
-  background-image: url("Mihika.jpg");
-  background-position: center;
-  background-size: 100% 60%;
-  transform: rotate(-60deg);
-  visibility: visible;
-}
-
-.hexagon7Mobile
-{
-  height: 300px;
-  width: 150px;
-  background: red;
-  transform: rotate(120deg);
-  margin: auto;
-  overflow: hidden;
-  visibility: hidden;
-  position: relative;
-  bottom: 50px;
-}
-
-.textt7
-{
-  padding-top: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
-  font-size:13px;
-}
-
-.hexagon-inner7Mobile
-{
-  height: 100%;
-  width: 100%;
-  background: green;
-  transform: rotate(-60deg);
-  overflow: hidden;
-}
-
-.hexagon-inner-in7Mobile
-{
-  height: 100%;
-  width: 100%;
-  background-image: url("Parth.jpg");
-  background-position: center;
-  background-size: 100% 60%;
-  transform: rotate(-60deg);
-  visibility: visible;
-}
-.hexagon8Mobile
-{
-  height: 300px;
-  width: 150px;
-  background: red;
-  transform: rotate(120deg);
-  margin: auto;
-  overflow: hidden;
-  visibility: hidden;
-  position: relative;
-  bottom: 50px;
-}
-
-.textt8
-{
-  padding-top: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
-  font-size:13px;
-}
-
-.hexagon-inner8Mobile
-{
-  height: 100%;
-  width: 100%;
-  background: green;
-  transform: rotate(-60deg);
-  overflow: hidden;
-}
-
-.hexagon-inner-in8Mobile
-{
-  height: 100%;
-  width: 100%;
-  background-image: url("Rohit.jpg");
-  background-position: center;
-  background-size: 100% 60%;
-  transform: rotate(-60deg);
-  visibility: visible;
-}
-
-.hexagon9Mobile
-{
-  height: 300px;
-  width: 150px;
-  background: red;
-  transform: rotate(120deg);
-  margin: auto;
-  overflow: hidden;
-  visibility: hidden;
-  position: relative;
-  bottom: 50px;
-}
-
-.textt9
-{
-  padding-top: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
-  font-size:13px;
-}
-
-.hexagon-inner9Mobile
-{
-  height: 100%;
-  width: 100%;
-  background: green;
-  transform: rotate(-60deg);
-  overflow: hidden;
-}
-
-.hexagon-inner-in9Mobile
-{
-  height: 100%;
-  width: 100%;
-  background-image: url("Shyren.jpg");
-  background-position: center;
-  background-size: 100% 60%;
-  transform: rotate(-60deg);
-  visibility: visible;
-}
-.hexagon10Mobile
-{
-  height: 300px;
-  width: 150px;
-  background: red;
-  transform: rotate(120deg);
-  margin: auto;
-  overflow: hidden;
-  visibility: hidden;
-  position: relative;
-  bottom: 50px;
-}
-
-.textt10
-{
-  padding-top: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
-  font-size:13px;
-}
-
-.hexagon-inner10Mobile
-{
-  height: 100%;
-  width: 100%;
-  background: green;
-  transform: rotate(-60deg);
-  overflow: hidden;
-}
-
-.hexagon-inner-in10Mobile
-{
-  height: 100%;
-  width: 100%;
   background-image: url("Varun.jpg");
   background-position: center;
   background-size: 100% 60%;
@@ -1178,10 +795,11 @@ h1
   visibility: visible;
 }
 
+
 .content
 {
   margin-left: 25%;
-  margin-top: 5%;
+  margin-top: 1%;
   padding: 10px;
   width: 60%;
   /*background-color:#273746;*/
@@ -1212,7 +830,7 @@ h1
   display: none;
 }
 
-#darshan
+#khushal
 {
   display: none;
 }
@@ -1222,25 +840,6 @@ h1
   display: none;
 }
 
-#rohit
-{
-  display: none;
-}
-
-#shyren
-{
-  display: none;
-}
-
-#meet
-{
-  display: none;
-}
-
-#jayk
-{
-  display: none;
-}
 .bio
 {
   background: black;
@@ -1252,6 +851,7 @@ h1
   border: 2px groove white;
   border-radius: 5px;
   box-shadow: 0px 0px 20px black;
+  bottom:60px;
 
 }
 
@@ -1259,8 +859,8 @@ h1
 .img
 {
   float: left;
-  width: 150px;
-  height: 184px;
+  width: auto;
+  height: auto;
   border: 7px groove black;
   border-radius: 5px;
   box-shadow: 0px 0px 10px black;
@@ -1290,9 +890,15 @@ h1
 
 @media screen and (max-width: 700px)
 {
+  h3 {
+      text-align: center;
+      font-family: serif;
+      font-size: 200%;
+      margin-top: 30px;
+  }
   .memberList
   {
-    width:100%;
+    width:auto;
     height: auto;
     position: relative;
   }
@@ -1304,6 +910,35 @@ h1
   {
     margin-left: 0;
   }
+  ul
+  {
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -webkit-flex-direction:column;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    margin-top: 0;
+
+  }
+
+  ul li
+  {
+    width:100%;
+  }
+  #footer
+  {
+    background-color: #020009;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: auto;
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
 }
 
 
@@ -1311,6 +946,12 @@ h1
 
 @media screen and (max-width: 500px)
 {
+  h3 {
+      text-align: center;
+      font-family: serif;
+      font-size: 200%;
+      margin-top: 30px;
+  }
 
 .main
 {
@@ -1324,8 +965,89 @@ h1
 {
   float: none;
 }
-ul
-{
-  height: 100px;
+ ul
+  {
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -webkit-flex-direction:column;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    margin-top: 0;
+    width: 100%;
+
+  }
+
+  ul li
+  {
+    width:100%;
+  }
+  #footer
+  {
+    background-color: #020009;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
 }
+
+@media screen and (max-width: 320px)
+{
+  h3 {
+      text-align: center;
+      font-family: serif;
+      font-size: 200%;
+      margin-top: 30px;
+  }
+  .memberList
+  {
+    width:auto;
+    height: auto;
+    position: relative;
+  }
+  .memberList a
+  {
+    float: left;
+  }
+  .member
+  {
+    margin-left: 0;
+  }
+ul
+  {
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -webkit-flex-direction:column;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    margin-top: 0;
+    width: 100%;
+
+  }
+
+  ul li
+  {
+    width:100%;
+  }
+  #footer
+  {
+    background-color: #020009;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+
 }
